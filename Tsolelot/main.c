@@ -33,7 +33,7 @@ void swap(int * a,int * b){
 }
 
 int checkHit(int boardSize,int board[boardSize][boardSize],int x,int y){
-if(x>=0&&x<boardSize&&y>=0&&y<boardSize)return (board[x][y]==1);
+if(x>=0&&x<boardSize&&y>=0&&y<boardSize)return board[x][y];
 }
 
 int isDemolished(int boardSize,int board[boardSize][boardSize],int x,int y){
